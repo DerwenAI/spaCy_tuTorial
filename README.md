@@ -28,12 +28,19 @@ conda install -c conda-forge spacy
 python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_md
 
+conda install -c conda-forge scattertext
 conda install -c anaconda beautifulsoup4
+pip install spacy-wordnet
+```
+
+Then be sure to:
+```
+source ~/.bashrc
 ```
 
 
 ## Jupyter launch
 To launch a headless Jupyter instance (e.g., running on a remote server in the cloud):
 ```
-nohup jupyter notebook --no-browser --port=8888 --NotebookApp.token='' --ip='0.0.0.0' &
+nohup ~/anaconda3/bin/jupyter notebook --no-browser --port=8888 --NotebookApp.token='' --ip='0.0.0.0' &
 ```
