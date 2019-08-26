@@ -3,7 +3,7 @@
 
 ## Environment dependencies
 
-First, set up for Jupyter and Python 3.x
+First, (for GCP) set up for Jupyter and Python 3.x
 ```
 sudo bash
 apt-get update
