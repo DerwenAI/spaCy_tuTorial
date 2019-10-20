@@ -1,9 +1,13 @@
-# spaCy tutorial
+# spaCy tuTorial
 
+## Instructions
+
+This is built to run in Jupyter notebooks on Google Colab.
+See the slides `spaCy_tuTorial.pdf` for details.
 
 ## Environment dependencies
 
-First, (for GCP) set up for Jupyter and Python 3.x
+If you're not running on Google Colab, first for GCP set up for Jupyter and Python 3.x:
 ```
 sudo bash
 apt-get update
@@ -40,14 +44,14 @@ pip install spacy-wordnet
 #python -m spacy download en_trf_bertbaseuncased_lg
 ```
 
-Then be sure to:
+## Jupyter launch
+
+Be sure to:
 ```
 source ~/.bashrc
 ```
 
-
-## Jupyter launch
-To launch a headless Jupyter instance (e.g., running on a remote server in the cloud):
+Then to launch a headless Jupyter instance (e.g., running on a remote server in the cloud):
 ```
 nohup ~/anaconda3/bin/jupyter notebook --no-browser --port=8888 --NotebookApp.token='' --ip='0.0.0.0' &
 ```
