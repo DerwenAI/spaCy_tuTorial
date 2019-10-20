@@ -25,12 +25,19 @@ Then install `conda` from its site.
 
 ```
 conda install -c conda-forge spacy
+
 python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_md
+#python -m spacy download en_core_web_md
+#python -m download en_core_web_lg
+python -m spacy validate
 
 conda install -c conda-forge scattertext
 conda install -c anaconda beautifulsoup4
+
 pip install spacy-wordnet
+
+#pip install spacy-transformers
+#python -m spacy download en_trf_bertbaseuncased_lg
 ```
 
 Then be sure to:
