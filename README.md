@@ -3,7 +3,7 @@
 ## Instructions
 
 This is built to run in Jupyter notebooks on Google Colab.
-See the slides `spaCy_tuTorial.pdf` for details.
+See the slides at <https://derwen.ai/s/d5c7> for details.
 
 ## Environment dependencies
 
