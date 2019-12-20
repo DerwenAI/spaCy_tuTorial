@@ -5,6 +5,8 @@
 This is built to run in Jupyter notebooks on Google Colab.
 See the slides at <https://derwen.ai/s/d5c7> for details.
 
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/DerwenAI/spaCy_tuTorial/blob/master/Text_Rank.ipynb)
+
 ## Environment dependencies
 
 If you're not running on Google Colab, first for GCP set up for Jupyter and Python 3.x:
